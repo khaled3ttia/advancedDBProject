@@ -1,0 +1,9 @@
+/usr/lib/jvm/default-java/bin/java -cp /home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/redis-binding/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/core-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/redis-binding/lib/redis-binding-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/redis-binding/lib/jedis-2.9.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/redis-binding/lib/commons-pool2-2.4.2.jar site.ycsb.Client -db site.ycsb.db.RedisClient -s -P workloads/workloadd -p redis.host=127.0.0.1 -p redis.port=6379 -threads 1 -t
+Command line: -db site.ycsb.db.RedisClient -s -P workloads/workloadd -p redis.host=127.0.0.1 -p redis.port=6379 -threads 1 -t
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2021-04-22 15:29:19:259 0 sec: 0 operations; est completion in 0 second [READ: Count=1, Max=7051, Min=7048, Avg=7050, 90=7051, 99=7051, 99.9=7051, 99.99=7051] 
+2021-04-22 15:29:19:328 0 sec: 1000 operations; 10204.08 current ops/sec; [READ: Count=946, Max=199, Min=27, Avg=41.43, 90=52, 99=126, 99.9=179, 99.99=199] [CLEANUP: Count=1, Max=464, Min=464, Avg=464, 90=464, 99=464, 99.9=464, 99.99=464] [INSERT: Count=53, Max=1655, Min=120, Avg=208.75, 90=272, 99=436, 99.9=1655, 99.99=1655] 

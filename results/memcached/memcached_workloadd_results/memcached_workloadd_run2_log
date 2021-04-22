@@ -1,0 +1,14 @@
+/usr/lib/jvm/default-java/bin/java -cp /home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/core-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/HdrHistogram-2.1.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/spymemcached-2.11.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/jackson-core-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/core-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/log4j-1.2.17.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/jackson-mapper-asl-1.9.13.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/htrace-core4-4.1.0-incubating.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/memcached-binding/lib/memcached-binding-0.17.0.jar site.ycsb.Client -db site.ycsb.db.MemcachedClient -s -P workloads/workloadd -p memcached.hosts=127.0.0.1 -threads 1 -t
+Command line: -db site.ycsb.db.MemcachedClient -s -P workloads/workloadd -p memcached.hosts=127.0.0.1 -threads 1 -t
+YCSB Client 0.17.0
+
+Loading workload...
+log4j:WARN No appenders could be found for logger (org.apache.htrace.core.Tracer).
+log4j:WARN Please initialize the log4j system properly.
+log4j:WARN See http://logging.apache.org/log4j/1.2/faq.html#noconfig for more info.
+Starting test.
+2021-04-22 15:49:08:370 0 sec: 0 operations; est completion in 0 second 
+2021-04-22 15:49:08.407 INFO net.spy.memcached.MemcachedConnection:  Added {QA sa=/127.0.0.1:11211, #Rops=0, #Wops=0, #iq=0, topRop=null, topWop=null, toWrite=0, interested=0} to connect queue
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2021-04-22 15:49:08.676 INFO net.spy.memcached.MemcachedConnection:  Shut down memcached client
+2021-04-22 15:49:08:677 0 sec: 1000 operations; 3257.33 current ops/sec; [READ: Count=944, Max=18895, Min=89, Avg=212.37, 90=306, 99=543, 99.9=6135, 99.99=18895] [CLEANUP: Count=1, Max=1684, Min=1684, Avg=1684, 90=1684, 99=1684, 99.9=1684, 99.99=1684] [INSERT: Count=8, Max=227, Min=159, Avg=180.62, 90=189, 99=227, 99.9=227, 99.99=227] [INSERT-FAILED: Count=48, Max=18783, Min=162, Avg=779.85, 90=696, 99=18783, 99.9=18783, 99.99=18783] 

@@ -1,0 +1,9 @@
+/usr/lib/jvm/default-java/bin/java -cp /home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/core-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/gnu-crypto-2.0.1.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/aerospike-client-3.1.2.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/luaj-jse-3.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/jbcrypt-0.3m.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/aerospike-binding-0.17.0.jar site.ycsb.Client -db site.ycsb.db.AerospikeClient -s -P workloads/workloada -threads 1 -t
+Command line: -db site.ycsb.db.AerospikeClient -s -P workloads/workloada -threads 1 -t
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2021-04-22 15:57:24:329 0 sec: 0 operations; est completion in 0 second 
+2021-04-22 15:57:24:416 0 sec: 1000 operations; 9090.91 current ops/sec; [READ: Count=492, Max=6407, Min=29, Avg=61.08, 90=72, 99=89, 99.9=6407, 99.99=6407] [CLEANUP: Count=1, Max=109, Min=109, Avg=109, 90=109, 99=109, 99.9=109, 99.99=109] [UPDATE: Count=508, Max=1581, Min=32, Avg=51.76, 90=70, 99=91, 99.9=133, 99.99=1581] 

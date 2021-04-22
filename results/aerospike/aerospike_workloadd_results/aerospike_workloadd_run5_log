@@ -1,0 +1,62 @@
+/usr/lib/jvm/default-java/bin/java -cp /home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/conf:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/HdrHistogram-2.1.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-core-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/core-0.17.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/jackson-mapper-asl-1.9.4.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/lib/htrace-core4-4.1.0-incubating.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/gnu-crypto-2.0.1.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/aerospike-client-3.1.2.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/luaj-jse-3.0.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/jbcrypt-0.3m.jar:/home/khaled/Documents/khaled/advancedDB/ycsb-0.17.0/aerospike-binding/lib/aerospike-binding-0.17.0.jar site.ycsb.Client -db site.ycsb.db.AerospikeClient -s -P workloads/workloadd -threads 1 -t
+Command line: -db site.ycsb.db.AerospikeClient -s -P workloads/workloadd -threads 1 -t
+YCSB Client 0.17.0
+
+Loading workload...
+Starting test.
+DBWrapper: report latency for each error is false and specific error codes to track for latency are: []
+2021-04-22 15:57:29:422 0 sec: 0 operations; est completion in 0 second 
+Error while writing key user5952875239596136740: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3339209904021769693: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user45774583492855434: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user6269821708803135155: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3564607206243057240: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user5590051723848587943: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8883487044377502202: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2659439919067222481: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user6541096057564973084: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2750989086052933349: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user542446234475980910: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user5681600890834298811: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2976386388274220896: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user6178272541817424287: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8975036211363213070: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3247660737036058825: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user7129316875533809428: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2162768268084097005: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user1130667052444817254: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user5093380072865462467: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2388165570305384552: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user6766493359786260631: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8386815393394376726: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3835881555004895169: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user7818800869821190567: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8395627796920771640: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3354170055886011749: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2518447444545974446: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user4766719594325630125: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2534404187358040716: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user9215393665448742673: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3930996982985592822: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8407021687790026911: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user7807406978951935296: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3942390873854848093: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3106668262514810790: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user4178498776356793781: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user1946183369389204372: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8643129590291972599: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3342776165016756478: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8995242505758863255: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user7219186160983098952: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user4530611691823684437: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3694889080483647134: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3590277958387957437: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user1357962551420368028: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8054908772323136255: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user2754555347047920134: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user8863280749981852017: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user6630965343014262608: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user5118832509792520781: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user4283109898452483478: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+Error while writing key user3002057140419121093: com.aerospike.client.AerospikeException: Error Code 5: Key already exists
+2021-04-22 15:57:29:503 0 sec: 1000 operations; 9259.26 current ops/sec; [READ: Count=947, Max=6527, Min=21, Avg=50.03, 90=71, 99=92, 99.9=140, 99.99=6527] [CLEANUP: Count=1, Max=96, Min=96, Avg=96, 90=96, 99=96, 99.9=96, 99.99=96] [INSERT: Count=0, Max=0, Min=9223372036854775807, Avg=NaN, 90=0, 99=0, 99.9=0, 99.99=0] [INSERT-FAILED: Count=53, Max=2069, Min=87, Avg=147.74, 90=133, 99=196, 99.9=2069, 99.99=2069] 
